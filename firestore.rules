@@ -1,0 +1,197 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // ===============================================================
+    // Helper Functions
+    // ===============================================================
+    
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function isOwner(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+    
+    function isAdmin() {
+      return isAuthenticated() && 
+        (
+          (request.auth.token.email == "amine.nagatti@gmail.com" && request.auth.token.email_verified == true) ||
+          get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'admin'
+        );
+    }
+    
+    function hasRequiredFields(fields) {
+      return request.resource.data.keys().hasAll(fields);
+    }
+
+    function hasOnlyAllowedFields(fields) {
+      return request.resource.data.keys().hasOnly(fields);
+    }
+    
+    function validStringLength(field, minLen, maxLen) {
+      return request.resource.data[field] is string &&
+        request.resource.data[field].size() >= minLen &&
+        request.resource.data[field].size() <= maxLen;
+    }
+    
+    function isPositive(field) {
+      return request.resource.data[field] is number && request.resource.data[field] >= 0;
+    }
+
+    function uidUnchanged() {
+      return !('uid' in request.resource.data) || request.resource.data.uid == request.auth.uid;
+    }
+
+    function uidNotModified() {
+      return !('uid' in request.resource.data) || request.resource.data.uid == resource.data.uid;
+    }
+
+    function userIdUnchanged() {
+      return !('userId' in request.resource.data) || request.resource.data.userId == request.auth.uid;
+    }
+
+    function userIdNotModified() {
+      return !('userId' in request.resource.data) || request.resource.data.userId == resource.data.userId;
+    }
+
+    // ===============================================================
+    // Domain Validators
+    // ===============================================================
+
+    function isValidUser() {
+      return hasOnlyAllowedFields(['uid', 'email', 'displayName', 'role', 'createdAt']) &&
+             request.resource.data.uid is string &&
+             request.resource.data.email is string &&
+             request.resource.data.displayName is string && request.resource.data.displayName.size() < 100 &&
+             request.resource.data.role in ['admin', 'user'] &&
+             request.resource.data.createdAt is string;
+    }
+    
+    function isValidProduct() {
+      return hasRequiredFields(['id', 'name', 'price', 'category', 'soldOut', 'img1', 'img2', 'alt', 'description']) &&
+             request.resource.data.id is number &&
+             validStringLength('name', 1, 200) &&
+             isPositive('price') &&
+             validStringLength('category', 1, 100) &&
+             (!('badge' in request.resource.data) || request.resource.data.badge == null || (request.resource.data.badge is string && request.resource.data.badge.size() < 50)) &&
+             request.resource.data.soldOut is bool &&
+             validStringLength('img1', 0, 2097152) &&
+             validStringLength('img2', 0, 2097152) &&
+             (!('images' in request.resource.data) || (request.resource.data.images is list && request.resource.data.images.size() < 20)) &&
+             (!('tags' in request.resource.data) || (request.resource.data.tags is list && request.resource.data.tags.size() < 20)) &&
+             validStringLength('alt', 0, 200) &&
+             validStringLength('description', 0, 5000);
+    }
+    
+    function isValidOrder() {
+      return hasRequiredFields(['orderNumber', 'customer', 'items', 'subtotal', 'discount', 'shipping', 'paymentMethod', 'total', 'status', 'createdAt']) &&
+             validStringLength('orderNumber', 0, 50) &&
+             (!('userId' in request.resource.data) || (request.resource.data.userId is string && request.resource.data.userId.size() < 50)) &&
+             request.resource.data.customer is map &&
+             request.resource.data.customer.keys().hasAll(['firstName', 'lastName', 'phone', 'address']) &&
+             request.resource.data.customer.firstName is string && request.resource.data.customer.firstName.size() >= 0 && request.resource.data.customer.firstName.size() <= 100 &&
+             request.resource.data.customer.lastName is string && request.resource.data.customer.lastName.size() >= 0 && request.resource.data.customer.lastName.size() <= 100 &&
+             request.resource.data.customer.phone is string && request.resource.data.customer.phone.size() >= 0 && request.resource.data.customer.phone.size() <= 20 &&
+             (!('gov' in request.resource.data.customer) || (request.resource.data.customer.gov is string && request.resource.data.customer.gov.size() >= 0 && request.resource.data.customer.gov.size() <= 50)) &&
+             request.resource.data.customer.address is string && request.resource.data.customer.address.size() >= 0 && request.resource.data.customer.address.size() <= 500 &&
+             request.resource.data.items is list && request.resource.data.items.size() < 100 &&
+             isPositive('subtotal') &&
+             isPositive('discount') &&
+             isPositive('shipping') &&
+             validStringLength('paymentMethod', 0, 50) &&
+             isPositive('total') &&
+             (!('couponCode' in request.resource.data) || (request.resource.data.couponCode is string && request.resource.data.couponCode.size() < 50)) &&
+             request.resource.data.status in ['pending', 'processing', 'shipped', 'completed', 'cancelled'] &&
+             request.resource.data.createdAt is string;
+    }
+
+    function isValidWishlist() {
+      return hasOnlyAllowedFields(['userId', 'items', 'updatedAt']) &&
+             request.resource.data.userId is string && request.resource.data.userId.size() < 50 &&
+             request.resource.data.items is list && request.resource.data.items.size() < 500 &&
+             request.resource.data.updatedAt is string;
+    }
+
+    function isValidCoupon() {
+      return hasRequiredFields(['code', 'type', 'value', 'active', 'usageCount', 'createdAt']) &&
+             validStringLength('code', 1, 50) &&
+             request.resource.data.type in ['percentage', 'fixed'] &&
+             isPositive('value') &&
+             request.resource.data.active is bool &&
+             request.resource.data.usageCount is number &&
+             request.resource.data.createdAt is string;
+    }
+
+    function isValidBlog() {
+      return hasRequiredFields(['id', 'title', 'slug', 'content', 'date', 'published']) &&
+             validStringLength('id', 1, 100) &&
+             validStringLength('title', 1, 200) &&
+             validStringLength('slug', 1, 200) &&
+             validStringLength('content', 1, 50000) &&
+             request.resource.data.date is string &&
+             request.resource.data.published is bool;
+    }
+
+    // ===============================================================
+    // Rules
+    // ===============================================================
+
+    match /users/{userId} {
+      allow read: if isOwner(userId) || isAdmin();
+      allow create: if isAuthenticated() && isValidUser() && uidUnchanged() && ((isOwner(userId) && request.resource.data.role == 'user') || isAdmin());
+      allow update: if isAuthenticated() && isValidUser() && uidNotModified() && ((isOwner(userId) && request.resource.data.role == resource.data.role) || isAdmin());
+      allow delete: if isAdmin();
+    }
+    
+    match /products/{productId} {
+      allow read: if true;
+      allow create: if isAdmin() && isValidProduct();
+      allow update: if (isAdmin() && isValidProduct()) || (
+        request.resource.data.diff(resource.data).affectedKeys().hasOnly(['variants', 'soldOut', 'quantity'])
+      );
+      allow delete: if isAdmin();
+    }
+    
+    match /orders/{orderId} {
+      // Allow anyone to create an order (guest checkout)
+      allow create: if isValidOrder() && (!('userId' in request.resource.data) || request.resource.data.userId == request.auth.uid);
+      // Only admin or the owner can read
+      allow read: if isAdmin() || (isAuthenticated() && resource.data.userId == request.auth.uid);
+      allow update: if isAdmin() && isValidOrder();
+      allow delete: if isAdmin();
+    }
+
+    match /wishlists/{userId} {
+      allow read: if isOwner(userId) || isAdmin();
+      allow create: if isOwner(userId) && isValidWishlist() && userIdUnchanged();
+      allow update: if isOwner(userId) && isValidWishlist() && userIdNotModified();
+      allow delete: if isOwner(userId) || isAdmin();
+    }
+
+    match /coupons/{couponId} {
+      allow get: if true; // Anyone can get to validate at checkout
+      allow list: if isAdmin();
+      allow create, update, delete: if isAdmin() && isValidCoupon();
+    }
+
+    match /newsletters/{id} {
+      allow create: if request.resource.data.keys().hasAll(['email', 'createdAt']) &&
+                     request.resource.data.email is string &&
+                     request.resource.data.createdAt is string;
+      allow read, update, delete: if isAdmin();
+    }
+
+    match /settings/{document=**} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    match /blogs/{blogId} {
+      allow read: if true;
+      allow create, update, delete: if isAdmin() && (request.method == 'delete' || isValidBlog());
+    }
+  }
+}
