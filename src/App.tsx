@@ -151,7 +151,7 @@ const PRODUCTS: Product[] = [
     soldOut: false,
     img1: "https://mywillows.com/cdn/shop/products/IMG_4113.jpg?v=1635193358&width=800",
     img2: "https://mywillows.com/cdn/shop/products/Donna.jpg?v=1635813674&width=800",
-    alt: "Lunettes à chaîne Donna - Willows Tunisia",
+    alt: "Lunettes à chaîne Donna - Lunaria",
     colors: ["#C9A96E","#1C1A17","#8B7355"],
     description: "Notre modèle signature, né d'un amour pour l'artisanat authentique. La Donna marie une chaîne dorée plaquée 18K à des cristaux de quartz naturel taillés à la main. Portée par des femmes dans 90 pays, elle est le symbole d'une élégance qui ne s'excuse pas. Chaque paire est unique — exactement comme vous.",
     shortDesc: "Notre bestseller intemporel. Chaîne dorée 18K + cristaux naturels."
@@ -165,7 +165,7 @@ const PRODUCTS: Product[] = [
     soldOut: false,
     img1: "https://mywillows.com/cdn/shop/products/SilverMinx-01-Hero.jpg?v=1605316285&width=800",
     img2: "https://mywillows.com/cdn/shop/products/SilverMinx-02.jpg?v=1605316285&width=800",
-    alt: "Lunettes Silver Minx - Willows Tunisia",
+    alt: "Lunettes Silver Minx - Lunaria",
     colors: ["#C0C0C0","#1C1A17","#C9A96E"],
     description: "La Silver Minx est pour la femme qui entre dans une pièce et change son énergie. Chaîne argentée rhodiée, cristaux de quartz fumé, monture cat-eye vintage. Elle ne passe pas inaperçue — et c'est exactement l'idée. Assemblée à la main, une pièce à la fois.",
     shortDesc: "Cat-eye audacieux. Chaîne argentée rhodiée + quartz fumé."
@@ -179,7 +179,7 @@ const PRODUCTS: Product[] = [
     soldOut: false,
     img1: "https://mywillows.com/cdn/shop/files/Figgy_Pudding.jpg?v=1772752982&width=800",
     img2: "https://mywillows.com/cdn/shop/files/willows_figgy-pudding_illustration.png?v=1772752982&width=800",
-    alt: "Lunettes Crystal Rose - Willows Tunisia",
+    alt: "Lunettes Crystal Rose - Lunaria",
     colors: ["#E8C4B8","#C9A96E","#1C1A17"],
     description: "Nouvelle arrivée dans la collection. La Crystal Rose capture la douceur du quartz rose et la chaleur du soleil tunisien. Ses teintes pêche et nude s'accordent avec toutes les carnations. Portez-la au bord de la mer à Hammamet ou en terrasse à La Marsa — elle trouve sa place partout.",
     shortDesc: "Nouvelle collection. Quartz rose + teintes nude pour toutes."
@@ -193,9 +193,9 @@ const PRODUCTS: Product[] = [
     soldOut: false,
     img1: "https://mywillows.com/cdn/shop/products/IMG_4113.jpg?v=1635193358&width=800",
     img2: "https://mywillows.com/cdn/shop/products/Donna.jpg?v=1635813674&width=800",
-    alt: "Lunettes Chaîne Dorée - Willows Tunisia",
+    alt: "Lunettes Chaîne Dorée - Lunaria",
     colors: ["#C9A96E","#8B7355","#F2E4D4"],
-    description: "La Chaîne Dorée est le summum du luxe accessible. Sa chaîne épaisse plaquée or 18K fait tourner les têtes, ses cristaux de citrine captent chaque rayon de lumière. C'est la pièce que vos amies vous demanderont d'où elle vient. La réponse : assemblée à la main, disponible uniquement chez Willows Tunisia.",
+    description: "La Chaîne Dorée est le summum du luxe accessible. Sa chaîne épaisse plaquée or 18K fait tourner les têtes, ses cristaux de citrine captent chaque rayon de lumière. C'est la pièce que vos amies vous demanderont d'où elle vient. La réponse : assemblée à la main, disponible uniquement chez Lunaria.",
     shortDesc: "La plus statement de notre collection. Chaîne épaisse or 18K."
   },
   {
@@ -207,7 +207,7 @@ const PRODUCTS: Product[] = [
     soldOut: false,
     img1: "https://mywillows.com/cdn/shop/products/SilverMinx-01-Hero.jpg?v=1605316285&width=800",
     img2: "https://mywillows.com/cdn/shop/products/IMG_4113.jpg?v=1635193358&width=800",
-    alt: "Lunettes Classique Noire - Willows Tunisia",
+    alt: "Lunettes Classique Noire - Lunaria",
     colors: ["#1C1A17","#2D2A27","#4A4540"],
     description: "Certaines choses ne se démodent jamais. La Classique Noire est notre entrée dans la collection — élégante, intemporelle, accessible. Monture noire mat, chaîne oxydée, cristaux de quartz fumé. Elle va avec tout. Elle élève tout. C'est la paire que vous porterez pendant des années.",
     shortDesc: "L'intemporelle. Monture noire mat + quartz fumé. Notre prix d'entrée."
@@ -221,9 +221,9 @@ const PRODUCTS: Product[] = [
     soldOut: false,
     img1: "https://mywillows.com/cdn/shop/products/Donna.jpg?v=1635813674&width=800",
     img2: "https://mywillows.com/cdn/shop/products/SilverMinx-01-Hero.jpg?v=1605316285&width=800",
-    alt: "Lunettes Optique Lunaire - Willows Tunisia",
+    alt: "Lunettes Optique Lunaire - Lunaria",
     colors: ["#C9A96E","#E8C4B8","#1C1A17"],
-    description: "Pourquoi choisir entre correction visuelle et beauté ? L'Optique Lunaire est notre première monture disponible avec verres correcteurs. Montée sur une base Rx-compatible, elle accepte toutes les prescriptions. Apportez votre ordonnance chez votre opticien habituel — il s'occupe des verres, Willows s'occupe du reste.",
+    description: "Pourquoi choisir entre correction visuelle et beauté ? L'Optique Lunaire est notre première monture disponible avec verres correcteurs. Montée sur une base Rx-compatible, elle accepte toutes les prescriptions. Apportez votre ordonnance chez votre opticien habituel — il s'occupe des verres, Lunaria s'occupe du reste.",
     shortDesc: "Compatible correction visuelle. Beauté + vision, enfin réunies."
   },
   {
@@ -235,9 +235,9 @@ const PRODUCTS: Product[] = [
     soldOut: false,
     img1: "https://mywillows.com/cdn/shop/files/willows_figgy-pudding_illustration.png?v=1772752982&width=800",
     img2: "https://mywillows.com/cdn/shop/files/Figgy_Pudding.jpg?v=1772752982&width=800",
-    alt: "Pendentifs Cristal - Willows Tunisia",
+    alt: "Pendentifs Cristal - Lunaria",
     colors: ["#C9A96E","#C0C0C0","#E8C4B8"],
-    description: "Nos pendentifs sont la touche finale parfaite. Conçus pour s'accorder avec l'ensemble de la collection Willows, ils peuvent aussi se porter seuls sur n'importe quelle paire de lunettes. Cristaux naturels, montures dorées ou argentées. Le cadeau idéal — pour vous ou pour une femme dans votre vie.",
+    description: "Nos pendentifs sont la touche finale parfaite. Conçus pour s'accorder avec l'ensemble de la collection Lunaria, ils peuvent aussi se porter seuls sur n'importe quelle paire de lunettes. Cristaux naturels, montures dorées ou argentées. Le cadeau idéal — pour vous ou pour une femme dans votre vie.",
     shortDesc: "Assortis à toute la collection. Idéal en cadeau. Dès 149 DT."
   },
   {
@@ -249,7 +249,7 @@ const PRODUCTS: Product[] = [
     soldOut: true,
     img1: "https://mywillows.com/cdn/shop/files/Figgy_Pudding.jpg?v=1772752982&width=800",
     img2: "https://mywillows.com/cdn/shop/files/willows_figgy-pudding_illustration.png?v=1772752982&width=800",
-    alt: "La Figgy Édition Limitée - Willows Tunisia",
+    alt: "La Figgy Édition Limitée - Lunaria",
     colors: ["#D4A88A","#C9A96E","#1C1A17"],
     description: "Produite en série limitée de 50 pièces, La Figgy est désormais épuisée. Elle restera dans les mémoires pour sa chaîne torsadée unique et ses cristaux d'ambre naturel. Si vous souhaitez être notifiée lors du prochain drop, laissez votre email ci-dessous. Les éditions limitées partent en moins de 48h.",
     shortDesc: "Édition 50 pièces — épuisée. Laissez votre email pour le prochain drop."
@@ -334,7 +334,7 @@ const Navbar = ({
         <div className="absolute left-1/2 -translate-x-1/2 flex items-center z-50">
           <button onClick={() => onNavigate('home')} className="block text-center cursor-pointer">
             <h1 className="text-lg sm:text-xl md:text-3xl font-display tracking-tight text-charcoal whitespace-nowrap">
-              Willows <span className="italic font-light">Tunisia</span>
+              Lunaria <span className="italic font-light">Tunisia</span>
             </h1>
           </button>
         </div>
@@ -374,31 +374,40 @@ const Navbar = ({
             animate={{ x: 0 }}
             exit={{ x: '-100%' }}
             transition={{ type: 'spring', damping: 25, stiffness: 200 }}
-            className="fixed inset-0 bg-cream z-[100] p-8 flex flex-col overflow-y-auto"
+            className="fixed inset-0 bg-cream text-charcoal z-[100] p-8 flex flex-col overflow-y-auto"
           >
-            <div className="flex justify-between items-center mb-12">
-              <h2 className="text-xl font-display italic">Menu</h2>
-              <button 
-                onClick={() => setIsMenuOpen(false)} 
-                className="p-3 -mr-3 hover:bg-charcoal/5 rounded-full transition-colors"
-                aria-label="Close menu"
-              >
-                <X size={32} strokeWidth={1.5} className="text-charcoal" />
-              </button>
-            </div>
-            <div className="flex flex-col space-y-8">
-              <button onClick={() => { setIsMenuOpen(false); onNavigate('shop'); }} className="text-4xl font-display italic text-left">{t.nav.shopAll}</button>
-              <button onClick={() => { setIsMenuOpen(false); onNavigate('about'); }} className="text-4xl font-display italic text-left">{t.nav.story}</button>
-              
-              <button onClick={() => { setIsMenuOpen(false); toggleLang(); }} className="text-2xl font-sans uppercase tracking-widest text-left mt-4">
-                Langue: {currentLang === 'fr' ? 'Français' : 'English'}
-              </button>
-            </div>
-            <div className="mt-auto pt-12 flex space-x-6">
-              <Instagram size={24} />
-              <Facebook size={24} />
-            </div>
-          </motion.div>
+              <div className="flex justify-between items-center mb-12">
+                <h2 className="text-xl font-display italic">Menu</h2>
+                <button 
+                  onClick={() => setIsMenuOpen(false)} 
+                  className="p-3 -mr-3 hover:bg-charcoal/5 rounded-full transition-colors"
+                  aria-label="Close menu"
+                >
+                  <X size={32} strokeWidth={1.5} className="text-charcoal" />
+                </button>
+              </div>
+              <div className="flex flex-col space-y-8">
+                <button onClick={() => { setIsMenuOpen(false); onNavigate('shop'); }} className="text-4xl font-display italic text-left">{t.nav.shopAll}</button>
+                <button onClick={() => { setIsMenuOpen(false); onNavigate('about'); }} className="text-4xl font-display italic text-left">{t.nav.story}</button>
+                
+                <button onClick={() => { setIsMenuOpen(false); toggleLang(); }} className="text-2xl font-sans uppercase tracking-widest text-left mt-4">
+                  Langue: {currentLang === 'fr' ? 'Français' : 'English'}
+                </button>
+              </div>
+              <div className="mt-auto pt-12 flex space-x-6">
+                <a href="https://www.instagram.com/mylunariatn/" target="_blank" rel="noopener noreferrer" className="text-charcoal hover:text-gold transition-colors">
+                  <Instagram size={24} />
+                </a>
+                <a href="https://www.tiktok.com/@mylunariatn" target="_blank" rel="noopener noreferrer" className="text-charcoal hover:text-gold transition-colors">
+                  <svg className="w-6 h-6" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/>
+                  </svg>
+                </a>
+                <a href="https://www.facebook.com/myLunaria/" target="_blank" rel="noopener noreferrer" className="text-charcoal hover:text-gold transition-colors">
+                  <Facebook size={24} />
+                </a>
+              </div>
+            </motion.div>
         )}
       </AnimatePresence>
     </nav>
@@ -482,14 +491,6 @@ const Hero = () => {
       </AnimatePresence>
 
       <div className="relative z-10 text-center px-6">
-        <motion.p 
-          initial={{ y: 20, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ delay: 0.5, duration: 1 }}
-          className="text-xs uppercase tracking-[0.3em] mb-6 text-charcoal/70 font-sans"
-        >
-          {t.hero.subtitle}
-        </motion.p>
         <motion.h2 
           initial={{ y: 30, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
@@ -570,7 +571,7 @@ const ProductCard: React.FC<{
       viewport={{ once: true }}
       className="group cursor-pointer"
     >
-      <div className="relative aspect-[4/3] overflow-hidden bg-sand mb-6 rounded-sm shadow-sm" onClick={onOpen}>
+      <div className="relative aspect-[4/5] overflow-hidden bg-sand mb-6 rounded-sm shadow-sm" onClick={onOpen}>
         <img 
           src={product.img1} 
           alt={product.alt}
@@ -717,7 +718,7 @@ const ProductPage: React.FC<{
       window.scrollTo(0, 0);
       
       // SEO Dynamic Title
-      document.title = `${product.name} | Willows Tunisia`;
+      document.title = `${product.name} | Lunaria`;
     }
   }, [product]);
 
@@ -924,7 +925,7 @@ const ProductPage: React.FC<{
               <Accordion title="Détails du produit" defaultOpen={true}>
                 <p className="mb-4">Chaque pièce est unique et fabriquée à la main dans notre atelier en Tunisie. Nous utilisons des matériaux de haute qualité pour garantir la durabilité et l'élégance de nos accessoires.</p>
                 <ul className="list-disc pl-4 space-y-2">
-                  <li>Design exclusif Willows</li>
+                  <li>Design exclusif Lunaria</li>
                   <li>Série limitée</li>
                 </ul>
               </Accordion>
@@ -963,7 +964,7 @@ const ProductPage: React.FC<{
                   </div>
                   <div>
                     <p className="font-bold text-sm mb-1">Puis-je personnaliser ma chaîne ?</p>
-                    <p className="text-sm">Absolument ! Contactez-nous sur Instagram @WillowsTunisia pour toute demande de personnalisation sur-mesure.</p>
+                    <p className="text-sm">Absolument ! Contactez-nous sur Instagram @mylunariatn pour toute demande de personnalisation sur-mesure.</p>
                   </div>
                 </div>
               </Accordion>
@@ -1133,7 +1134,7 @@ const StorySection = ({ onNavigate }: { onNavigate: (view: 'about') => void }) =
             <div className="absolute top-1/4 right-0 w-3/5 aspect-square rounded-sm overflow-hidden shadow-2xl z-20">
               <img 
                 src="https://mywillows.com/cdn/shop/products/SilverMinx-01-Hero.jpg?v=1614322477&width=800" 
-                alt="Willows Details" 
+                alt="Lunaria Details" 
                 className="w-full h-full object-cover"
                 onError={(e) => {
                   const target = e.currentTarget;
@@ -1204,13 +1205,18 @@ const Footer = ({ onNavigate, isAdmin, user, onLogin, onLogout, blogs }: { onNav
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 mb-24">
           <div className="lg:col-span-1">
-            <h2 className="text-2xl font-display mb-6">Willows <span className="italic font-light">Tunisia</span></h2>
+            <h2 className="text-2xl font-display mb-6">Lunaria</h2>
             <p className="text-cream/50 font-body text-sm leading-relaxed mb-8">
               {t.footer.desc}
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="hover:text-gold transition-colors"><Instagram size={20} /></a>
-              <a href="#" className="hover:text-gold transition-colors"><Facebook size={20} /></a>
+              <a href="https://www.instagram.com/mylunariatn/" target="_blank" rel="noopener noreferrer" className="hover:text-gold transition-colors"><Instagram size={20} /></a>
+              <a href="https://www.tiktok.com/@mylunariatn" target="_blank" rel="noopener noreferrer" className="hover:text-gold transition-colors">
+                <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/>
+                </svg>
+              </a>
+              <a href="https://www.facebook.com/myLunaria/" target="_blank" rel="noopener noreferrer" className="hover:text-gold transition-colors"><Facebook size={20} /></a>
             </div>
           </div>
           
@@ -1772,7 +1778,7 @@ const CheckoutOverlay = ({
                       <label className="flex items-center justify-between p-4 border rounded-sm cursor-pointer transition-colors border-charcoal bg-charcoal/5">
                         <div className="flex items-center space-x-3">
                           <input type="radio" name="shipping" checked={true} readOnly className="accent-charcoal" />
-                          <span className="font-sans text-sm">Standard (2-3 jours)</span>
+                          <span className="font-sans text-sm">Standard (entre 24h et 48h)</span>
                         </div>
                         <span className="font-sans font-medium text-sm">Gratuit</span>
                       </label>
@@ -1892,8 +1898,8 @@ const CheckoutOverlay = ({
                   onClick={() => {
                     if (navigator.share) {
                       navigator.share({
-                        title: 'Willows Tunisia',
-                        text: `J'ai commandé sur Willows Tunisia ! (Commande ${orderNumber})`,
+                        title: 'Lunaria',
+                        text: `J'ai commandé sur Lunaria ! (Commande ${orderNumber})`,
                         url: window.location.href,
                       }).catch(console.error);
                     } else {
@@ -2105,28 +2111,28 @@ const ShopPage: React.FC<{
 
 const AboutUs = () => {
   useEffect(() => {
-    document.title = "Notre Histoire - Willows Tunisia | Bijoux et Chaînes de Lunettes Fait Main";
+    document.title = "Notre Histoire - Lunaria | Bijoux et Chaînes de Lunettes Fait Main";
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
-      metaDescription.setAttribute("content", "Découvrez l'histoire de Willows Tunisia, marque tunisienne d'artisanat spécialisée dans les bijoux, accessoires et chaînes de lunettes fait main avec des pierres naturelles. Livraison sur Tunis, Sousse, Sfax et toute la Tunisie.");
+      metaDescription.setAttribute("content", "Découvrez l'histoire de Lunaria, marque tunisienne d'artisanat spécialisée dans les bijoux, accessoires et chaînes de lunettes fait main avec des pierres naturelles. Livraison sur Tunis, Sousse, Sfax et toute la Tunisie.");
     }
     window.scrollTo(0, 0);
   }, []);
 
   return (
     <div className="pt-32 pb-24 px-6 md:px-12 max-w-4xl mx-auto min-h-screen">
-      <h1 className="text-4xl md:text-5xl lg:text-6xl font-display italic mb-12 text-center text-charcoal">À propos de Willows Tunisia</h1>
+      <h1 className="text-4xl md:text-5xl lg:text-6xl font-display italic mb-12 text-center text-charcoal">À propos de Lunaria</h1>
       
       <div className="space-y-12 font-body text-charcoal/80 leading-relaxed text-lg">
         <section className="bg-sand/30 p-8 rounded-sm border border-charcoal/5">
           <h2 className="text-3xl font-display mb-6 text-charcoal">Notre Histoire : L'Artisanat Tunisien Réinventé</h2>
-          <p className="mb-4">Née au cœur de <strong>Tunis</strong>, Willows Tunisia est le fruit d'une passion profonde pour l'<strong>artisanat délicat</strong> et les <strong>pierres naturelles</strong>. Notre aventure a commencé avec une idée simple : créer des accessoires et des <strong>bijoux fait main</strong> qui ne sont pas seulement beaux, mais qui racontent une histoire et portent une énergie unique.</p>
+          <p className="mb-4">Née au cœur de <strong>Tunis</strong>, Lunaria est le fruit d'une passion profonde pour l'<strong>artisanat délicat</strong> et les <strong>pierres naturelles</strong>. Notre aventure a commencé avec une idée simple : créer des accessoires et des <strong>bijoux fait main</strong> qui ne sont pas seulement beaux, mais qui racontent une histoire et portent une énergie unique.</p>
           <p>Chaque pièce, qu'il s'agisse de nos célèbres <strong>chaînes de lunettes</strong> ou de nos colliers, est imaginée et assemblée à la main dans notre atelier en <strong>Tunisie</strong>. Nous combinons des techniques traditionnelles avec un design contemporain et épuré pour offrir des créations intemporelles.</p>
         </section>
 
         <section>
           <h2 className="text-3xl font-display mb-6 text-charcoal">Notre Mission & Nos Matériaux</h2>
-          <p className="mb-4">Chez Willows, notre mission est de sublimer votre quotidien avec des créations uniques. Nous croyons que les détails font la différence. C'est pour cela que nous sélectionnons rigoureusement nos matériaux, en privilégiant des <strong>pierres semi-précieuses authentiques</strong> telles que l'améthyste, le quartz rose, l'œil de tigre et la pierre de lune.</p>
+          <p className="mb-4">Chez Lunaria, notre mission est de sublimer votre quotidien avec des créations uniques. Nous croyons que les détails font la différence. C'est pour cela que nous sélectionnons rigoureusement nos matériaux, en privilégiant des <strong>pierres semi-précieuses authentiques</strong> telles que l'améthyste, le quartz rose, l'œil de tigre et la pierre de lune.</p>
           <p>Nous nous engageons à offrir une qualité exceptionnelle tout en soutenant le savoir-faire local et l'<strong>artisanat tunisien</strong>. De la conception à la livraison partout en Tunisie (Grand Tunis, Sousse, Sfax, Djerba...), chaque étape est pensée pour vous offrir une expérience premium.</p>
         </section>
 
@@ -2159,7 +2165,7 @@ const ShippingReturns = () => (
     <div className="space-y-8 font-body text-charcoal/80 leading-relaxed">
       <section>
         <h2 className="text-xl font-display mb-4 text-charcoal">Expédition en Tunisie</h2>
-        <p>Nous sommes fiers de proposer une livraison rapide et sécurisée partout en Tunisie. Que vous soyez à Tunis, Sousse, Sfax, Djerba ou ailleurs, nos partenaires logistiques s'assurent que vos bijoux Willows arrivent à bon port.</p>
+        <p>Nous sommes fiers de proposer une livraison rapide et sécurisée partout en Tunisie. Que vous soyez à Tunis, Sousse, Sfax, Djerba ou ailleurs, nos partenaires logistiques s'assurent que vos bijoux Lunaria arrivent à bon port.</p>
         <ul className="list-disc pl-5 mt-4 space-y-2">
           <li><strong>Délai de traitement :</strong> 1 à 2 jours ouvrables.</li>
           <li><strong>Délai de livraison :</strong> 24 à 48 heures ouvrables après expédition.</li>
@@ -2174,7 +2180,7 @@ const ShippingReturns = () => (
           <li>Les articles personnalisés ne sont ni repris ni échangés.</li>
           <li>Les frais de retour sont à la charge du client, sauf en cas de défaut de fabrication.</li>
         </ul>
-        <p className="mt-4">Pour initier un retour, veuillez nous contacter via notre page de contact ou sur Instagram @WillowsTunisia.</p>
+        <p className="mt-4">Pour initier un retour, veuillez nous contacter via notre page de contact ou sur Instagram @mylunariatn.</p>
       </section>
     </div>
   </div>
@@ -2184,13 +2190,13 @@ const CareGuide = () => (
   <div className="pt-32 pb-24 px-6 md:px-12 max-w-3xl mx-auto min-h-screen">
     <h1 className="text-4xl md:text-5xl font-display italic mb-12">Guide d'Entretien</h1>
     <div className="space-y-8 font-body text-charcoal/80 leading-relaxed">
-      <p className="text-lg">Chaque création Willows Tunisia est assemblée à la main avec soin. Pour préserver l'éclat de vos pierres naturelles et la brillance de vos chaînes, nous vous recommandons de suivre ces conseils simples.</p>
+      <p className="text-lg">Chaque création Lunaria est assemblée à la main avec soin. Pour préserver l'éclat de vos pierres naturelles et la brillance de vos chaînes, nous vous recommandons de suivre ces conseils simples.</p>
       <section>
         <h2 className="text-xl font-display mb-4 text-charcoal">Protéger vos bijoux</h2>
         <ul className="list-disc pl-5 space-y-2">
           <li><strong>Évitez l'eau et l'humidité :</strong> Retirez vos chaînes de lunettes et bijoux avant de vous doucher, de nager ou de faire du sport.</li>
           <li><strong>Attention aux produits chimiques :</strong> Le parfum, les lotions, la laque et les produits d'entretien peuvent ternir le métal et endommager certaines pierres poreuses.</li>
-          <li><strong>Rangement :</strong> Conservez vos pièces dans leur pochette Willows d'origine, à l'abri de la lumière directe du soleil et de l'humidité. Ne les laissez pas s'emmêler.</li>
+          <li><strong>Rangement :</strong> Conservez vos pièces dans leur pochette Lunaria d'origine, à l'abri de la lumière directe du soleil et de l'humidité. Ne les laissez pas s'emmêler.</li>
         </ul>
       </section>
       <section>
@@ -2210,12 +2216,13 @@ const ContactUs = () => (
         <div className="space-y-6">
           <div>
             <h3 className="text-xs uppercase tracking-widest font-sans font-bold text-charcoal mb-2">Email</h3>
-            <a href="mailto:contact@willowstunisia.com" className="hover:text-gold transition-colors">contact@willowstunisia.com</a>
+            <a href="mailto:hello@mylunaria.tn" className="hover:text-gold transition-colors">hello@mylunaria.tn</a>
           </div>
           <div>
             <h3 className="text-xs uppercase tracking-widest font-sans font-bold text-charcoal mb-2">Réseaux Sociaux</h3>
-            <a href="https://instagram.com/willowstunisia" target="_blank" rel="noreferrer" className="hover:text-gold transition-colors block">Instagram: @WillowsTunisia</a>
-            <a href="https://facebook.com/willowstunisia" target="_blank" rel="noreferrer" className="hover:text-gold transition-colors block mt-2">Facebook: Willows Tunisia</a>
+            <a href="https://www.instagram.com/mylunariatn/" target="_blank" rel="noreferrer" className="hover:text-gold transition-colors block">Instagram: @mylunariatn</a>
+            <a href="https://www.tiktok.com/@mylunariatn" target="_blank" rel="noreferrer" className="hover:text-gold transition-colors block mt-2">TikTok: @mylunariatn</a>
+            <a href="https://www.facebook.com/myLunaria/" target="_blank" rel="noreferrer" className="hover:text-gold transition-colors block mt-2">Facebook: Lunaria</a>
           </div>
           <div>
             <h3 className="text-xs uppercase tracking-widest font-sans font-bold text-charcoal mb-2">Atelier</h3>
@@ -4144,64 +4151,30 @@ export default function App() {
                 />
                 <StorySection onNavigate={(view) => setCurrentView(view)} />
                 
-                {/* Featured Quote Section */}
-                <section className="py-32 bg-cream text-center px-6">
-                  <motion.div 
-                    initial={{ opacity: 0, scale: 0.95 }}
-                    whileInView={{ opacity: 1, scale: 1 }}
-                    viewport={{ once: true }}
-                    className="max-w-3xl mx-auto"
-                  >
-                    <span className="text-gold text-4xl font-display mb-8 block italic">"</span>
-                    <h2 className="text-3xl md:text-5xl font-display italic leading-tight mb-8">
-                      {t.quote.text}
-                    </h2>
-                    <p className="text-xs uppercase tracking-[0.3em] font-sans text-charcoal/40">{t.quote.author}</p>
-                  </motion.div>
-                </section>
-
-                {/* Contact Section */}
-                <section id="contact" className="py-24 bg-cream px-6 md:px-12 border-t border-charcoal/5">
-                  <div className="max-w-3xl mx-auto text-center">
-                    <h2 className="text-4xl md:text-6xl font-display mb-8">{t.contact.title}</h2>
-                    <p className="text-charcoal/60 font-body mb-12">
-                      {t.contact.desc}
+                {/* Community Section */}
+                <section id="contact" className="py-24 px-6 md:px-12 bg-sand/30 border-t border-charcoal/5">
+                  <div className="max-w-4xl mx-auto text-center bg-cream/50 p-8 md:p-12 rounded-sm border border-charcoal/5 shadow-sm">
+                    <h2 className="text-3xl md:text-5xl font-display italic text-charcoal mb-6">Rejoignez la Communauté</h2>
+                    <p className="text-charcoal/60 font-body mb-8 text-lg max-w-2xl mx-auto">
+                      Découvrez nos nouveautés, plongez dans notre univers et partagez vos looks avec nous sur vos réseaux préférés.
                     </p>
-                    <div className="space-y-4">
-                      <p className="text-lg font-display italic">hello@willowstunisia.com</p>
-                      <p className="text-sm uppercase tracking-widest font-sans text-charcoal/40">{t.contact.location}</p>
-                    </div>
-                  </div>
-                </section>
-
-                {/* Instagram Feed Placeholder */}
-                <section className="pb-24 px-6 md:px-12">
-                  <div className="max-w-7xl mx-auto">
-                    <div className="flex items-center justify-between mb-12">
-                      <h3 className="text-xs uppercase tracking-[0.2em] font-sans font-bold">{t.instagram.title}</h3>
-                      <a href="#" className="text-xs uppercase tracking-widest font-sans border-b border-charcoal pb-1 hover:text-gold hover:border-gold transition-colors">{t.instagram.cta}</a>
-                    </div>
-                    <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
-                      {[
-                        "https://mywillows.com/cdn/shop/files/Willows_10.20_113_1.jpg",
-                        "https://mywillows.com/cdn/shop/products/Donna.jpg",
-                        "https://mywillows.com/cdn/shop/files/Figgy_Pudding.jpg",
-                        "https://mywillows.com/cdn/shop/products/SilverMinx-01-Hero.jpg",
-                        "https://mywillows.com/cdn/shop/files/willows_figgy-pudding_illustration.png",
-                        "https://mywillows.com/cdn/shop/products/IMG_4113.jpg"
-                      ].map((img, i) => (
-                        <div key={i} className="aspect-square bg-sand overflow-hidden group cursor-pointer relative">
-                          <img 
-                            src={img} 
-                            alt="Instagram post" 
-                            className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-110"
-                            onError={handleImageError}
-                          />
-                          <div className="absolute inset-0 bg-charcoal/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                            <Instagram size={24} className="text-cream" />
-                          </div>
-                        </div>
-                      ))}
+                    <a href="mailto:hello@mylunaria.tn" className="inline-block text-xl md:text-2xl font-display italic hover:text-gold transition-colors mb-12">hello@mylunaria.tn</a>
+                    
+                    <div className="flex flex-col sm:flex-row flex-wrap justify-center items-center gap-4">
+                      <a href="https://www.instagram.com/mylunariatn/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 px-8 py-4 border border-charcoal text-charcoal hover:bg-charcoal hover:text-cream transition-all rounded-full min-w-[200px] justify-center group bg-cream">
+                        <Instagram size={20} className="group-hover:scale-110 transition-transform" />
+                        <span className="font-sans text-xs uppercase tracking-widest font-semibold">Instagram</span>
+                      </a>
+                      <a href="https://www.tiktok.com/@mylunariatn" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 px-8 py-4 border border-charcoal text-charcoal hover:bg-charcoal hover:text-cream transition-all rounded-full min-w-[200px] justify-center group bg-cream">
+                        <svg className="w-5 h-5 group-hover:scale-110 transition-transform" viewBox="0 0 24 24" fill="currentColor">
+                          <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/>
+                        </svg>
+                        <span className="font-sans text-xs uppercase tracking-widest font-semibold">TikTok</span>
+                      </a>
+                      <a href="https://www.facebook.com/myLunaria/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 px-8 py-4 border border-charcoal text-charcoal hover:bg-charcoal hover:text-cream transition-all rounded-full min-w-[200px] justify-center group bg-cream">
+                        <Facebook size={20} className="group-hover:scale-110 transition-transform" />
+                        <span className="font-sans text-xs uppercase tracking-widest font-semibold">Facebook</span>
+                      </a>
                     </div>
                   </div>
                 </section>

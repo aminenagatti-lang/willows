@@ -9,7 +9,7 @@ export const translations = {
       shopAll: "Shop All"
     },
     hero: {
-      subtitle: "Willows Tunisia",
+      subtitle: "Lunaria",
       title1: "Adorn Your",
       title2: "Inner Vision",
       cta: "Explore Collection"
@@ -33,13 +33,13 @@ export const translations = {
       tag: "Our Philosophy",
       title1: "Handcrafted with",
       title2: "Intuition & Grace",
-      p1: "Willows Tunisia was born from a desire to merge the raw beauty of natural crystals with the functional elegance of everyday accessories.",
+      p1: "Lunaria was born from a desire to merge the raw beauty of natural crystals with the functional elegance of everyday accessories.",
       p2: "Founded in Tunis, our small atelier focuses on slow production and artisanal quality. Every chain is hand-linked, every crystal is selected for its unique vibration, and every piece tells a story of craftsmanship.",
       cta: "Read Our Full Story"
     },
     quote: {
       text: "Accessories are the punctuation marks of your personal style. Crystals are the energy that fuels it.",
-      author: "— The Willows Philosophy"
+      author: "— The Lunaria Philosophy"
     },
     contact: {
       title: "Get in Touch",
@@ -47,7 +47,7 @@ export const translations = {
       location: "Tunis, Tunisia"
     },
     instagram: {
-      title: "Follow @WillowsTunisia",
+      title: "Follow @mylunariatn",
       cta: "View Instagram"
     },
     footer: {
@@ -66,7 +66,7 @@ export const translations = {
       newsletterDesc: "Join our circle for early access and crystal insights.",
       emailPlaceholder: "Email Address",
       thankYou: "Thank you!",
-      rights: "© 2026 Willows Tunisia. All Rights Reserved.",
+      rights: "© 2026 Lunaria. All Rights Reserved.",
       privacy: "Privacy Policy",
       terms: "Terms of Service"
     },
@@ -126,7 +126,7 @@ export const translations = {
       shopAll: "Tout Voir"
     },
     hero: {
-      subtitle: "Willows Tunisia",
+      subtitle: "Lunaria",
       title1: "Ornez Votre",
       title2: "Vision Intérieure",
       cta: "Explorer la Collection"
@@ -150,13 +150,13 @@ export const translations = {
       tag: "Notre Philosophie",
       title1: "Fabriqué avec",
       title2: "Intuition & Grâce",
-      p1: "Willows Tunisia est née du désir de fusionner la beauté brute des cristaux naturels avec l'élégance fonctionnelle des accessoires du quotidien.",
+      p1: "Lunaria est née du désir de fusionner la beauté brute des cristaux naturels avec l'élégance fonctionnelle des accessoires du quotidien.",
       p2: "Fondé à Tunis, notre petit atelier se concentre sur une production lente et une qualité artisanale. Chaque chaîne est liée à la main, chaque cristal est sélectionné pour sa vibration unique, et chaque pièce raconte une histoire de savoir-faire.",
       cta: "Lire Notre Histoire"
     },
     quote: {
       text: "Les accessoires sont les signes de ponctuation de votre style personnel. Les cristaux sont l'énergie qui l'alimente.",
-      author: "— La Philosophie Willows"
+      author: "— La Philosophie Lunaria"
     },
     contact: {
       title: "Contactez-nous",
@@ -164,7 +164,7 @@ export const translations = {
       location: "Tunis, Tunisie"
     },
     instagram: {
-      title: "Suivez @WillowsTunisia",
+      title: "Suivez @mylunariatn",
       cta: "Voir Instagram"
     },
     footer: {
@@ -183,7 +183,7 @@ export const translations = {
       newsletterDesc: "Rejoignez notre cercle pour un accès anticipé et des conseils sur les cristaux.",
       emailPlaceholder: "Adresse Email",
       thankYou: "Merci !",
-      rights: "© 2026 Willows Tunisia. Tous droits réservés.",
+      rights: "© 2026 Lunaria. Tous droits réservés.",
       privacy: "Politique de Confidentialité",
       terms: "Conditions d'Utilisation"
     },
