@@ -1117,7 +1117,7 @@ const StorySection = ({ onNavigate }: { onNavigate: (view: 'about') => void }) =
             viewport={{ once: true }}
             className="relative"
           >
-            <div className="aspect-[3/4] rounded-sm overflow-hidden shadow-xl relative z-10 w-4/5">
+            <div className="aspect-[3/4] rounded-sm overflow-hidden shadow-xl relative z-10 w-full">
               <img 
                 src="https://mywillows.com/cdn/shop/files/Figgy_Pudding.jpg?v=1614322477&width=1000" 
                 alt="Artisan at work" 
@@ -1131,21 +1131,7 @@ const StorySection = ({ onNavigate }: { onNavigate: (view: 'about') => void }) =
                 }}
               />
             </div>
-            <div className="absolute top-1/4 right-0 w-3/5 aspect-square rounded-sm overflow-hidden shadow-2xl z-20">
-              <img 
-                src="https://mywillows.com/cdn/shop/products/SilverMinx-01-Hero.jpg?v=1614322477&width=800" 
-                alt="Lunaria Details" 
-                className="w-full h-full object-cover"
-                onError={(e) => {
-                  const target = e.currentTarget;
-                  if (!target.dataset.errorHandled) {
-                    target.dataset.errorHandled = 'true';
-                    target.src = "https://images.unsplash.com/photo-1599643478524-fb66f70a00d8?q=80&w=800&auto=format&fit=crop";
-                  }
-                }}
-              />
-            </div>
-            <div className="absolute -bottom-8 -right-8 w-48 h-48 bg-gold/20 rounded-full blur-3xl -z-10" />
+            <div className="absolute -bottom-8 -left-8 w-48 h-48 bg-gold/20 rounded-full blur-3xl -z-10" />
           </motion.div>
           
           <motion.div 

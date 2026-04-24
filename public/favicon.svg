@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#FFFFFF"/>
+  <text x="256" y="340" font-family="'Playfair Display', 'Times New Roman', serif" font-size="280" font-weight="bold" fill="#000000" text-anchor="middle" letter-spacing="-15">LU</text>
+  <path d="M 120 340 Q 256 420 390 320" fill="none" stroke="#000000" stroke-width="25" stroke-linecap="round"/>
+</svg>
